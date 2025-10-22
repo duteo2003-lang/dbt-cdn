@@ -1,0 +1,1 @@
+console.log("Hello World - The js file is serving in cdn");
