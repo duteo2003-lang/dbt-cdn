@@ -1,0 +1,460 @@
+window.s7_data = {
+    "config": {
+        "version": 2,
+        "group_id": null,
+        "organization_id": 1,
+        "do_snippet_flag": false,
+        "do_url": null,
+        "couix_api_usage": 0,
+        "show_couix_panel": false,
+        "mask_display": 1,
+        "note_display": 1,
+        "ai_chatbot_usage": 1
+    },
+    "flow_guides": {
+        "flow_guide_sections": [
+            {
+                "section_title": "",
+                "section_display_order": 1,
+                "is_section_saved": 0,
+                "flow_guides": {
+                    "total": 1,
+                    "source": [
+                        {
+                            "id": 1214,
+                            "is_favorite": false,
+                            "is_auto": 1,
+                            "finish_display": 1,
+                            "auto_choice_display": 1
+                        }
+                    ],
+                    "result": [
+                        {
+                            "id": 1214,
+                            "flow_guide_title": "2 url",
+                            "flow_guide_description": "",
+                            "flow_guide_page_name": "【確定申告書等作成コーナー】-作成する申告書等の選択",
+                            "flow_guide_page_url": "https://www.keisan.nta.go.jp/kyoutu/ky/sm/csw0300#bsctrl",
+                            "is_public": 3,
+                            "group_info_ids": [
+                                1
+                            ],
+                            "is_owner": false,
+                            "is_favorite": false,
+                            "guides": [
+                                {
+                                    "id": 2747,
+                                    "flow_guide_id": 1214,
+                                    "back_button_flag": 1,
+                                    "back_button_text": "",
+                                    "guide_style": "balloon",
+                                    "guide_page_url": "https://www.keisan.nta.go.jp/kyoutu/ky/sm/csw0300#bsctrl",
+                                    "guide_page_name": "【確定申告書等作成コーナー】-作成する申告書等の選択",
+                                    "guide_item_notes": "",
+                                    "is_first_guide": 1,
+                                    "guide_details": {
+                                        "id": 2747,
+                                        "guide_id": 2747,
+                                        "guide_contents": "<p>確認してください。</p>",
+                                        "x_coordinate": 0,
+                                        "guide_play_order": 1,
+                                        "speech_balloon_width": 0,
+                                        "speech_balloon_position": 2,
+                                        "speech_balloon_vertical_offset": 0,
+                                        "speech_balloon_horizontal_offset": 0,
+                                        "speech_balloon_border_type": 1,
+                                        "speech_balloon_border_color": 1,
+                                        "speech_balloon_horn_flg": 1,
+                                        "speech_balloon_operation_type": 2,
+                                        "auto_input_type": 1,
+                                        "auto_setting_value": "",
+                                        "wait_time": "0.0",
+                                        "is_end_position": 0,
+                                        "flowguides_image_assets": [
+                                        ],
+                                        "guide_action_override_flg": 5,
+                                        "guide_pointer_color_type": null,
+                                        "image_assets_masters": [
+                                        ]
+                                    },
+                                    "element": {
+                                        "element_id": 3480,
+                                        "element_type": "button",
+                                        "position_path": "/html[1]/body[1]/div[1]/div[3]/form[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/button[1]",
+                                        "guide_image_info": "",
+                                        "element_details": [
+                                            {
+                                                "element_detail_id": 20958,
+                                                "element_id": 3480,
+                                                "element_property_config": "attribute",
+                                                "value": "type = button"
+                                            },
+                                            {
+                                                "element_detail_id": 20959,
+                                                "element_id": 3480,
+                                                "element_property_config": "attribute",
+                                                "value": "onclick = doSubmitCSW0900(1,'24');return false;"
+                                            },
+                                            {
+                                                "element_detail_id": 20960,
+                                                "element_id": 3480,
+                                                "element_property_config": "attribute",
+                                                "value": "tabindex = 0"
+                                            },
+                                            {
+                                                "element_detail_id": 20961,
+                                                "element_id": 3480,
+                                                "element_property_config": "attribute",
+                                                "value": "tagName = button"
+                                            },
+                                            {
+                                                "element_detail_id": 20962,
+                                                "element_id": 3480,
+                                                "element_property_config": "attribute",
+                                                "value": "class = zeimokubox syotoku"
+                                            },
+                                            {
+                                                "element_detail_id": 20963,
+                                                "element_id": 3480,
+                                                "element_property_config": "innerText",
+                                                "value": "innerText = 所得税"
+                                            },
+                                            {
+                                                "element_detail_id": 20964,
+                                                "element_id": 3480,
+                                                "element_property_config": "text",
+                                                "value": "text = \n\t\t\t\t\t\t\t\t所得税\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t"
+                                            }
+                                        ]
+                                    },
+                                    "guide_actions": [
+                                        {
+                                            "id": 2982,
+                                            "guide_id": 2747,
+                                            "next_guide_id": 2748,
+                                            "guide_branch_number": 0,
+                                            "guide_button_label": "A1",
+                                            "action_satisfy_type": 0
+                                        },
+                                        {
+                                            "id": 2984,
+                                            "guide_id": 2747,
+                                            "next_guide_id": 2749,
+                                            "guide_branch_number": 1,
+                                            "guide_button_label": "A2",
+                                            "action_satisfy_type": 0
+                                        }
+                                    ],
+                                    "link_guide": [
+                                    ]
+                                },
+                                {
+                                    "id": 2748,
+                                    "flow_guide_id": 1214,
+                                    "back_button_flag": 1,
+                                    "back_button_text": "",
+                                    "guide_style": "balloon",
+                                    "guide_page_url": "https://www.keisan.nta.go.jp/kyoutu/ky/sm/csw0300#bsctrl",
+                                    "guide_page_name": "【確定申告書等作成コーナー】-作成する申告書等の選択",
+                                    "guide_item_notes": "",
+                                    "is_first_guide": 0,
+                                    "guide_details": {
+                                        "id": 2748,
+                                        "guide_id": 2748,
+                                        "guide_contents": "<p>確認してください。</p>",
+                                        "x_coordinate": 0,
+                                        "guide_play_order": 3,
+                                        "speech_balloon_width": 0,
+                                        "speech_balloon_position": 2,
+                                        "speech_balloon_vertical_offset": 0,
+                                        "speech_balloon_horizontal_offset": 0,
+                                        "speech_balloon_border_type": 1,
+                                        "speech_balloon_border_color": 1,
+                                        "speech_balloon_horn_flg": 1,
+                                        "speech_balloon_operation_type": 2,
+                                        "auto_input_type": 1,
+                                        "auto_setting_value": "",
+                                        "wait_time": "0.0",
+                                        "is_end_position": 0,
+                                        "flowguides_image_assets": [
+                                        ],
+                                        "guide_action_override_flg": 5,
+                                        "guide_pointer_color_type": null,
+                                        "image_assets_masters": [
+                                        ]
+                                    },
+                                    "element": {
+                                        "element_id": 3481,
+                                        "element_type": "p",
+                                        "position_path": "/html[1]/body[1]/div[1]/div[3]/form[1]/div[1]/div[1]/div[2]/div[2]/div[1]/p[1]",
+                                        "guide_image_info": "",
+                                        "element_details": [
+                                            {
+                                                "element_detail_id": 20965,
+                                                "element_id": 3481,
+                                                "element_property_config": "attribute",
+                                                "value": "tagName = p"
+                                            },
+                                            {
+                                                "element_detail_id": 20966,
+                                                "element_id": 3481,
+                                                "element_property_config": "attribute",
+                                                "value": "class = area-title"
+                                            },
+                                            {
+                                                "element_detail_id": 20967,
+                                                "element_id": 3481,
+                                                "element_property_config": "innerText",
+                                                "value": "innerText = 令和６年分の申告書等を作成します"
+                                            },
+                                            {
+                                                "element_detail_id": 20968,
+                                                "element_id": 3481,
+                                                "element_property_config": "text",
+                                                "value": "text = 令和６年分の申告書等を作成します"
+                                            }
+                                        ]
+                                    },
+                                    "guide_actions": [
+                                        {
+                                            "id": 2983,
+                                            "guide_id": 2748,
+                                            "next_guide_id": null,
+                                            "guide_branch_number": 0,
+                                            "guide_button_label": "次へ",
+                                            "action_satisfy_type": 0
+                                        }
+                                    ],
+                                    "link_guide": [
+                                    ]
+                                },
+                                {
+                                    "id": 2749,
+                                    "flow_guide_id": 1214,
+                                    "back_button_flag": 1,
+                                    "back_button_text": "",
+                                    "guide_style": "balloon",
+                                    "guide_page_url": "https://www.keisan.nta.go.jp/kyoutu/ky/sm/csw0300#bsctrl",
+                                    "guide_page_name": "【確定申告書等作成コーナー】-作成する申告書等の選択",
+                                    "guide_item_notes": "",
+                                    "is_first_guide": 0,
+                                    "guide_details": {
+                                        "id": 2749,
+                                        "guide_id": 2749,
+                                        "guide_contents": "<p>確認してください。</p>",
+                                        "x_coordinate": 1,
+                                        "guide_play_order": 2,
+                                        "speech_balloon_width": 0,
+                                        "speech_balloon_position": 2,
+                                        "speech_balloon_vertical_offset": 0,
+                                        "speech_balloon_horizontal_offset": 0,
+                                        "speech_balloon_border_type": 1,
+                                        "speech_balloon_border_color": 1,
+                                        "speech_balloon_horn_flg": 1,
+                                        "speech_balloon_operation_type": 2,
+                                        "auto_input_type": 1,
+                                        "auto_setting_value": "",
+                                        "wait_time": "0.0",
+                                        "is_end_position": 0,
+                                        "flowguides_image_assets": [
+                                        ],
+                                        "guide_action_override_flg": 5,
+                                        "guide_pointer_color_type": null,
+                                        "image_assets_masters": [
+                                        ]
+                                    },
+                                    "element": {
+                                        "element_id": 3482,
+                                        "element_type": "p",
+                                        "position_path": "/html[1]/body[1]/div[1]/div[3]/form[1]/div[1]/div[1]/p[1]",
+                                        "guide_image_info": "",
+                                        "element_details": [
+                                            {
+                                                "element_detail_id": 20969,
+                                                "element_id": 3482,
+                                                "element_property_config": "attribute",
+                                                "value": "tagName = p"
+                                            },
+                                            {
+                                                "element_detail_id": 20970,
+                                                "element_id": 3482,
+                                                "element_property_config": "innerText",
+                                                "value": "innerText = 作成する申告書等と年分を選択してください。"
+                                            },
+                                            {
+                                                "element_detail_id": 20971,
+                                                "element_id": 3482,
+                                                "element_property_config": "text",
+                                                "value": "text = 作成する申告書等と年分を選択してください。"
+                                            },
+                                            {
+                                                "element_detail_id": 20972,
+                                                "element_id": 3482,
+                                                "element_property_config": "ident_path",
+                                                "value": "/html[1]/body[1]/div[1]/div[3]/form[1]/div[1]/div[1]/p[1]"
+                                            }
+                                        ]
+                                    },
+                                    "guide_actions": [
+                                        {
+                                            "id": 2985,
+                                            "guide_id": 2749,
+                                            "next_guide_id": 2748,
+                                            "guide_branch_number": 0,
+                                            "guide_button_label": "次へ",
+                                            "action_satisfy_type": 0
+                                        }
+                                    ],
+                                    "link_guide": [
+                                    ]
+                                }
+                            ],
+                            "is_auto": 1,
+                            "finish_display": 1,
+                            "auto_choice_display": 1,
+                            "flowguide_property_details": [
+                                {
+                                    "id": 264,
+                                    "flowguide_id": 1214,
+                                    "flowguide_property_master": {
+                                        "category_type": 1,
+                                        "condition_type": 1,
+                                        "id": 1
+                                    },
+                                    "condition_value": {
+                                        "0": "https://www.keisan.nta.go.jp/kyoutu/ky/sm/csw0300#bsctrl"
+                                    },
+                                    "sort_number": 1
+                                },
+                                {
+                                    "id": 266,
+                                    "flowguide_id": 1214,
+                                    "flowguide_property_master": {
+                                        "category_type": 2,
+                                        "condition_type": 1,
+                                        "id": 5
+                                    },
+                                    "condition_value": {
+                                        "0": {
+                                            "element_id": 0,
+                                            "element_type": "button",
+                                            "position_path": "/html[1]/body[1]/div[1]/div[3]/form[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/button[1]",
+                                            "element_details": [
+                                                {
+                                                    "value": "type = button",
+                                                    "element_id": 0,
+                                                    "element_detail_id": 0,
+                                                    "element_property_config": "attribute"
+                                                },
+                                                {
+                                                    "value": "onclick = doSubmitCSW0900(1,'24');return false;",
+                                                    "element_id": 0,
+                                                    "element_detail_id": 0,
+                                                    "element_property_config": "attribute"
+                                                },
+                                                {
+                                                    "value": "tabindex = 0",
+                                                    "element_id": 0,
+                                                    "element_detail_id": 0,
+                                                    "element_property_config": "attribute"
+                                                },
+                                                {
+                                                    "value": "tagName = button",
+                                                    "element_id": 0,
+                                                    "element_detail_id": 0,
+                                                    "element_property_config": "attribute"
+                                                },
+                                                {
+                                                    "value": "class = zeimokubox syotoku",
+                                                    "element_id": 0,
+                                                    "element_detail_id": 0,
+                                                    "element_property_config": "attribute"
+                                                },
+                                                {
+                                                    "value": "innerText = 所得税",
+                                                    "element_id": 0,
+                                                    "element_detail_id": 0,
+                                                    "element_property_config": "innerText"
+                                                },
+                                                {
+                                                    "value": "text = \n\t\t\t\t\t\t\t\t所得税\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t",
+                                                    "element_id": 0,
+                                                    "element_detail_id": 0,
+                                                    "element_property_config": "text"
+                                                }
+                                            ],
+                                            "guide_image_info": ""
+                                        },
+                                        "2": {
+                                            "page_url": "https://www.keisan.nta.go.jp/kyoutu/ky/sm/csw0300#bsctrl",
+                                            "page_name": "【確定申告書等作成コーナー】-作成する申告書等の選択"
+                                        }
+                                    },
+                                    "sort_number": 3
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    "notes": {
+        "notes_sections": [
+        ]
+    },
+    "masks": {
+        "masks_sections": [
+        ]
+    },
+    "icon_data": {
+        "icons": [
+            {
+                "key": "1",
+                "value": "data:image/svg+xml,%3Csvg%20width%3D%2221%22%20height%3D%2220%22%20viewBox%3D%220%200%2021%2020%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Crect%20x%3D%220.5%22%20width%3D%2220%22%20height%3D%2220%22%20rx%3D%2210%22%20fill%3D%22white%22%2F%3E%3Cg%20clip-path%3D%22url(%23clip0_15445_77397)%22%3E%3Cpath%20d%3D%22M4%2017.4105C7.16919%2013.8184%2012.6483%2013.4711%2016.2432%2016.6526C16.5112%2016.8895%2016.7635%2017.1421%2017%2017.4105C13.3499%2020.8684%207.65009%2020.8684%204%2017.4105ZM6.55428%208.94737C6.55428%206.76842%208.32019%205%2010.4961%205C12.6719%205%2014.4378%206.76842%2014.4378%208.94737C14.4378%2011.1263%2012.6719%2012.8947%2010.4961%2012.8947C8.32019%2012.8947%206.55428%2011.1263%206.55428%208.94737Z%22%20fill%3D%22%23272937%22%2F%3E%3C%2Fg%3E%3Cdefs%3E%3CclipPath%20id%3D%22clip0_15445_77397%22%3E%3Crect%20width%3D%2213%22%20height%3D%2215%22%20fill%3D%22white%22%20transform%3D%22translate(4%205)%22%2F%3E%3C%2FclipPath%3E%3C%2Fdefs%3E%3C%2Fsvg%3E"
+            },
+            {
+                "key": "2",
+                "value": "data:image/svg+xml,%3Csvg%20width%3D%2221%22%20height%3D%2220%22%20viewBox%3D%220%200%2021%2020%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Crect%20x%3D%220.5%22%20width%3D%2220%22%20height%3D%2220%22%20rx%3D%2210%22%20fill%3D%22white%22%2F%3E%3Cpath%20fill-rule%3D%22evenodd%22%20clip-rule%3D%22evenodd%22%20d%3D%22M6.64307%207.62068C6.64307%205.62364%208.37367%204%2010.5009%204L10.4995%204.00129C12.6267%204.00129%2014.3574%205.62493%2014.3574%207.62197C14.3574%208.58765%2013.9552%209.49668%2013.2265%2010.1804C13.1024%2010.2981%2012.9648%2010.403%2012.8191%2010.5142L12.8161%2010.5164C12.2562%2010.9401%2011.688%2011.3701%2011.688%2012.4401C11.688%2012.5122%2011.6249%2012.5714%2011.548%2012.5714H9.45101C9.37415%2012.5714%209.31102%2012.5122%209.31102%2012.4401C9.31102%2010.3079%2010.6107%209.319%2011.3092%208.78851L11.3532%208.75504C11.4314%208.69581%2011.511%208.63529%2011.5439%208.6031C11.8253%208.33915%2011.979%207.9915%2011.979%207.62068C11.979%206.85328%2011.3147%206.23009%2010.4995%206.23009C9.68431%206.23009%209.02007%206.85457%209.02007%207.62068C9.02007%207.69278%208.95831%207.75201%208.88009%207.75201H6.78305C6.7062%207.75201%206.64307%207.69407%206.64307%207.62068ZM11.7858%2014.7144C11.7858%2015.4245%2011.2102%2016.0001%2010.5001%2016.0001C9.78999%2016.0001%209.21436%2015.4245%209.21436%2014.7144C9.21436%2014.0043%209.78999%2013.4287%2010.5001%2013.4287C11.2102%2013.4287%2011.7858%2014.0043%2011.7858%2014.7144Z%22%20fill%3D%22%23272937%22%2F%3E%3C%2Fsvg%3E"
+            },
+            {
+                "key": "3",
+                "value": "data:image/svg+xml,%3Csvg%20width%3D%2221%22%20height%3D%2220%22%20viewBox%3D%220%200%2021%2020%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Crect%20x%3D%220.5%22%20width%3D%2220%22%20height%3D%2220%22%20rx%3D%2210%22%20fill%3D%22white%22%2F%3E%3Cpath%20d%3D%22M11.5696%2012H9.43036C9.31755%2012%209.22563%2011.9128%209.22145%2011.8033L9%204.20887C9%204.15412%209.0188%204.10139%209.0585%204.06084C9.09819%204.02231%209.15251%204%209.20891%204H11.7911C11.8475%204%2011.9018%204.02231%2011.9415%204.06084C11.9791%204.10139%2012%204.15412%2012%204.20887L11.7786%2011.8033C11.7765%2011.9128%2011.6825%2012%2011.5696%2012Z%22%20fill%3D%22%23272937%22%2F%3E%3Cpath%20d%3D%22M9.17895%2015.8713C8.52783%2015.248%208.52783%2014.2374%209.17895%2013.614C9.83007%2012.9907%2010.8857%2012.9907%2011.5369%2013.614C12.188%2014.2374%2012.188%2015.248%2011.5369%2015.8713C10.8857%2016.4947%209.83007%2016.4947%209.17895%2015.8713Z%22%20fill%3D%22%23272937%22%2F%3E%3C%2Fsvg%3E"
+            },
+            {
+                "key": "4",
+                "value": "data:image/svg+xml,%3Csvg%20width%3D%2221%22%20height%3D%2220%22%20viewBox%3D%220%200%2021%2020%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Crect%20x%3D%220.5%22%20width%3D%2220%22%20height%3D%2220%22%20rx%3D%2210%22%20fill%3D%22white%22%2F%3E%3Cpath%20fill-rule%3D%22evenodd%22%20clip-rule%3D%22evenodd%22%20d%3D%22M12.5368%203.45952C12.6757%203.59737%2012.7992%203.76586%2012.8763%203.94967C12.9535%204.13348%2012.9998%204.3326%2012.9998%204.54705C12.9998%204.76149%2012.9535%204.96061%2012.8763%205.14442C12.7992%205.34354%2012.6757%205.49672%2012.5368%205.63457C12.3979%205.77243%2012.2282%205.87965%2012.043%205.95624C11.8578%206.03282%2011.6572%206.07877%2011.4412%206.07877C11.2251%206.07877%2011.0245%206.03282%2010.8393%205.95624C10.6541%205.87965%2010.4844%205.77243%2010.3455%205.63457C10.2066%205.49672%2010.0986%205.32823%2010.0214%205.14442C9.94425%204.96061%209.89795%204.76149%209.89795%204.54705C9.89795%204.3326%209.94425%204.13348%2010.0214%203.94967C10.0986%203.76586%2010.2066%203.59737%2010.3455%203.45952C10.4844%203.32166%2010.6541%203.19912%2010.8393%203.12254C11.0245%203.04595%2011.2251%203%2011.4412%203C11.6572%203%2011.8578%203.04595%2012.043%203.12254C12.2282%203.19912%2012.3979%203.32166%2012.5368%203.45952ZM12.3057%207.15088L10.9014%2013.7679L10.9169%2013.7526C10.886%2013.8598%2010.8551%2013.9671%2010.8551%2014.0743V14.3806C10.8551%2014.6563%2010.9169%2014.8402%2011.0403%2014.9474C11.1638%2015.0546%2011.3644%2015.1006%2011.6422%2015.1006C11.8274%2015.1006%2011.9662%2015.1006%2012.0434%2015.0699L12.2749%2014.978C12.2595%2015.3303%2012.1669%2015.6367%2012.0434%2015.8817C11.9045%2016.1421%2011.7502%2016.3413%2011.5496%2016.5097C11.349%2016.6782%2011.1175%2016.8008%2010.8706%2016.8774C10.6236%2016.9539%2010.3767%2016.9999%2010.1144%2016.9999C9.82118%2016.9999%209.55883%2016.9539%209.29649%2016.862C9.04958%2016.7855%208.81809%2016.6323%208.63291%2016.4485C8.44772%2016.2647%208.2934%2016.0196%208.18538%2015.7286C8.06192%2015.4375%208.01562%2015.0852%208.01562%2014.6717C8.01562%2014.5032%208.01562%2014.3041%208.04649%2014.0896C8.06047%2013.8954%208.09976%2013.6886%208.14144%2013.4693C8.14578%2013.4464%208.15015%2013.4234%208.15451%2013.4003L9.48167%207.15088H12.3057Z%22%20fill%3D%22%23272937%22%2F%3E%3C%2Fsvg%3E"
+            }
+        ],
+        "icon_colors": [
+            {
+                "key": "1",
+                "value": "#000000"
+            },
+            {
+                "key": "2",
+                "value": "#ff595e"
+            },
+            {
+                "key": "3",
+                "value": "#fecd39"
+            },
+            {
+                "key": "4",
+                "value": "#0974e8"
+            },
+            {
+                "key": "5",
+                "value": "#3ab795"
+            },
+            {
+                "key": "6",
+                "value": "#4e5156"
+            },
+            {
+                "key": "7",
+                "value": "#ffffff"
+            }
+        ]
+    }
+}
